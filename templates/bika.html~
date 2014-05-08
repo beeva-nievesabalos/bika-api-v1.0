@@ -1,0 +1,9 @@
+<!doctype html>
+<title>BIKA</title>
+{% if information %}
+  <h1>BIKA says:</h1>
+  <p>{{ information }}!</p>
+{% else %}
+  <h1>BIKA!</h1>
+{% endif %}
+
