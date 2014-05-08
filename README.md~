@@ -90,11 +90,12 @@ Given a text, used to fill in a form, BIKA extracts the following information: e
 telephone numbers.
 
 Methods: POST, GET
+
+
 **POST**
 Request
 Headers
 Body
-
 Request Method: POST
 Status Code: 200
 Params: {
@@ -104,6 +105,8 @@ Params: {
 on 21/03/1975. You can contact me by e-mail at jdclark@email.com. My phone number is 213 555 776 and home
 phonenumber is 666777897 and 91 234 56 78. I work at BBVA, ERICSSON and GE.\""
 }
+
+
 Response
 Headers
 Status Code: 200
@@ -112,6 +115,7 @@ Date: Mon, 16 Dec 2013 16:17:43 GMT
 Server: Werkzeug/0.9.4 Python/3.3.3
 Content-Length: 822
 Content-Type: application/json
+
 Body
 {
 "address_list": [],
@@ -152,6 +156,8 @@ Body
 "telephone": "912345678"
 }]
 }
+
+
 **GET**
 Request
 Headers
@@ -165,6 +171,8 @@ Params: {
 on 21/03/1975. You can contact me by e-mail at jdclark@email.com. My phone number is 213 555 776 and home
 phonenumber is 666777897 and 91 234 56 78. I work at BBVA, ERICSSON and GE.\""
 }
+
+
 Response
 Headers
 Status Code: 200
@@ -172,6 +180,8 @@ Date: Mon, 16 Dec 2013 16:09:02 GMT
 Server: Werkzeug/0.9.4 Python/3.3.3
 Content-Length: 551
 Content-Type: text/html; charset=utf-8
+
+
 Body
 jQuery11654254656562545656({"entities_list": [{"name": "John Clark"}, {"addressLocality": "Madrid"}, {"addressLocality":
 "Spain"}, {"name": "Linares"}, {"addressLocality": "Spain"}, {"name": "Morgan Clark"}, {"affiliation": "BBVA"}, {"affiliation":

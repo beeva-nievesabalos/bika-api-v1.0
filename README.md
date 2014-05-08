@@ -2,6 +2,8 @@ BIKA API                             v1.0
 BEEVA Information and Knowledge Assistant
 =============
 **English version**
+http://54.195.222.159:5000/ 
+
 
 **1. Date extraction**
 Using regular expressions. 
